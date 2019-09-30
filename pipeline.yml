@@ -37,3 +37,5 @@ deployment:
     url: artifactory.dev.adskengineer.net/docker-local-v2/dynamo/dynamolibrariejs:dotnetcore2
   scripts:
     - "dotnet --version"
+    - "dotnet new console"
+    - "dotnet pack Librarie.csproj -c Release"
