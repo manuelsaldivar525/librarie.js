@@ -38,4 +38,4 @@ deployment:
   scripts:
     - "dotnet --version"
     - "dotnet new console"
-    - "dotnet pack Librarie.csproj -c Release"
+    - "dotnet pack develop.csproj -c Release"
